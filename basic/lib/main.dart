@@ -82,12 +82,37 @@ class _MyHomePageState extends State<MyHomePage> {
               ],
             ),
             Row(
-              mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                Image.network(
-                    'https://github.com/flutter/website/blob/master/examples/layout/sizing/images/pic1.jpg?raw=true')
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Icon(
+                    Icons.account_circle,
+                    size: 50,
+                  ),
+                ),
+                Column(
+                  mainAxisSize: MainAxisSize.min,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: <Widget>[
+                    Text(
+                      'Flutter McFlutter',
+                      style: Theme.of(context).textTheme.headline,
+                    ),
+                    Text(
+                      'Experienced Developer'
+
+                    )
+                  ],
+                )
               ],
             )
+//            Row(
+//              mainAxisAlignment: MainAxisAlignment.center,
+//              children: <Widget>[
+//                Image.network(
+//                    'https://github.com/flutter/website/blob/master/examples/layout/sizing/images/pic1.jpg?raw=true')
+//              ],
+//            )
           ],
         ),
       ),
