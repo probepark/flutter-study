@@ -80,6 +80,13 @@ class _MyHomePageState extends State<MyHomePage> {
                   color: Colors.amber,
                 )
               ],
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                Image.network(
+                    'https://github.com/flutter/website/blob/master/examples/layout/sizing/images/pic1.jpg?raw=true')
+              ],
             )
           ],
         ),
