@@ -62,6 +62,20 @@ class _MyHomePageState extends State<MyHomePage> {
                   'Hey!',
                   style: TextStyle(
                       fontSize: 40, fontFamily: 'Futura', color: Colors.red),
+                ),
+              ],
+            ),
+            Row(
+              children: <Widget>[
+                Icon(
+                  Icons.widgets,
+                  size: 50,
+                  color: Colors.blue,
+                ),
+                Icon(
+                  Icons.widgets,
+                  size: 50,
+                  color: Colors.red,
                 )
               ],
             )
