@@ -45,11 +45,14 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Row(
-              mainAxisAlignment: MainAxisAlignment.spaceAround,
-              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisSize: MainAxisSize.max,
+//              crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
                 BlueBox(),
-                Expanded(child: BlueBox()),
+                SizedBox(width: 50),
+                SizedBox(width: 25),
+//                Expanded(child: BlueBox()),
+                BlueBox(),
                 BlueBox(),
 //                Flexible(fit: FlexFit.tight, flex: 2, child: BlueBox()),
 //                Flexible(fit: FlexFit.tight, flex: 1, child: BlueBox()),
