@@ -49,8 +49,9 @@ class _MyHomePageState extends State<MyHomePage> {
 //              crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
                 BlueBox(),
-                SizedBox(width: 50),
-                SizedBox(width: 25),
+                Spacer(flex: 1),
+//                SizedBox(width: 50),
+//                SizedBox(width: 25),
 //                Expanded(child: BlueBox()),
                 BlueBox(),
                 BlueBox(),
