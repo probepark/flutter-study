@@ -43,20 +43,26 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          textBaseline: TextBaseline.alphabetic,
           children: <Widget>[
             Row(
-              mainAxisSize: MainAxisSize.max,
-//              crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
-                BlueBox(),
-                Spacer(flex: 1),
-//                SizedBox(width: 50),
-//                SizedBox(width: 25),
-//                Expanded(child: BlueBox()),
-                BlueBox(),
-                BlueBox(),
-//                Flexible(fit: FlexFit.tight, flex: 2, child: BlueBox()),
-//                Flexible(fit: FlexFit.tight, flex: 1, child: BlueBox()),
+                Text(
+                  'Hey!',
+                  style: TextStyle(
+                      fontSize: 30, fontFamily: 'Futura', color: Colors.blue),
+                ),
+                Text(
+                  'Hey!',
+                  style: TextStyle(
+                      fontSize: 50, fontFamily: 'Futura', color: Colors.green),
+                ),
+                Text(
+                  'Hey!',
+                  style: TextStyle(
+                      fontSize: 40, fontFamily: 'Futura', color: Colors.red),
+                )
               ],
             )
           ],
