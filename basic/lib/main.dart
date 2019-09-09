@@ -45,6 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Row(
+              mainAxisSize: MainAxisSize.min,
               children: <Widget>[
                 BlueBox(),
                 BlueBox(),
