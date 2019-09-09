@@ -43,10 +43,10 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          textBaseline: TextBaseline.alphabetic,
           children: <Widget>[
             Row(
+              crossAxisAlignment: CrossAxisAlignment.baseline,
+              textBaseline: TextBaseline.alphabetic,
               children: <Widget>[
                 Text(
                   'Hey!',
@@ -66,6 +66,8 @@ class _MyHomePageState extends State<MyHomePage> {
               ],
             ),
             Row(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              textBaseline: TextBaseline.alphabetic,
               children: <Widget>[
                 Icon(
                   Icons.widgets,
@@ -75,7 +77,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 Icon(
                   Icons.widgets,
                   size: 50,
-                  color: Colors.red,
+                  color: Colors.amber,
                 )
               ],
             )
